@@ -1,0 +1,15 @@
+.pio/
+.vscode/
+
+# generated API docs
+tmp_docs/
+node_modules/
+package.json
+package-lock.json
+
+*.o
+*.out
+
+docs/
+EpoxyDuino/
+AUnit/

@@ -1,0 +1,28 @@
+PROJECT_NAME           = "aws-iot-expresslink-library-arduino"
+
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+
+INPUT                  = src examples README.md
+EXAMPLE_PATH           = examples
+
+FILE_PATTERNS          = *.c \
+                         *.cpp \
+                         *.h \
+                         *.hpp \
+                         *.md
+
+OUTPUT_DIRECTORY       = docs
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+GENERATE_HTML          = YES
+
+SEARCHENGINE           = NO
+TOC_EXPAND             = YES
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = YES
+ENUM_VALUES_PER_LINE   = 1
+FULL_SIDEBAR           = YES
+AUTOLINK_SUPPORT       = NO
+HTML_DYNAMIC_MENUS     = NO
+USE_MDFILE_AS_MAINPAGE = README.md
